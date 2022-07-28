@@ -1,17 +1,20 @@
 using System;
 
-namespace Play.Catalog.Service.Entities{
-    public class Item{
+namespace Play.Catalog.Service.Entities
+{
 
-        public Guid Id {get; set;}
+    public class Item : IEntity
+    {
 
-        public string Name {get; set;}
+        public Guid Id { get; set; }
 
-        public string Description {get; set;}
+        public string Name { get; set; }
 
-        public Decimal Price {get; set;}
+        public string Description { get; set; }
 
-        public DateTimeOffset CreatedDate {get; set;}
+        public Decimal Price { get; set; }
+
+        public DateTimeOffset CreatedDate { get; set; }
     }
 }
 

@@ -15,13 +15,13 @@ namespace Play.Catalog.Service.Controllers{
     [Route("items")]
 public class ItemsController :ControllerBase{
 
-    private static readonly List<ItemDto> items= new(){
-    new ItemDto(Guid.NewGuid(),"Potion","Restore a small amount of HP",5,DateTimeOffset.UtcNow),
-    new ItemDto(Guid.NewGuid(),"Antidote","Cures Poison",7,DateTimeOffset.UtcNow),
-    new ItemDto(Guid.NewGuid(),"Bronze sword","Deals a small amount of damage",5,DateTimeOffset.UtcNow) 
-};
 
-    private readonly ItemsRepository itemsRepository=new();
+
+    private readonly IRepository<Item> itemsRepository;
+
+    public ItemsController(IRepository<Item> itemsRepository){
+        this.itemsRepository=itemsRepository;
+    }
 
     [HttpGet]
     public async Task<IEnumerable<ItemDto>> GetAsync(){
