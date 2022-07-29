@@ -42,3 +42,11 @@ C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\n
 C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Common.dll
+C:\Users\Bell\Documents\GitHub\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

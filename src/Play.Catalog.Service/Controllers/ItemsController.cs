@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using Play.Catalog.Service.Dtos;
 using System.Linq;
-using Play.Catalog.Service.Repositories; 
+using Play.Common;
 using System.Threading.Tasks;
 using Play.Catalog.Service.Entities;
 
