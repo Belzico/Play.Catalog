@@ -52,7 +52,7 @@ public class ItemsController :ControllerBase{
             Price =createItemDto.Price,
             CreatedDate  =DateTimeOffset.UtcNow
         };
- 
+
         await itemsRepository.CreateAsync(item);
 
         return CreatedAtAction(nameof(GetByIdAsync), new {id = item.Id}, item);
